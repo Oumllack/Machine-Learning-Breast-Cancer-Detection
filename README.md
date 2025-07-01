@@ -267,7 +267,3 @@ print(f"Prediction: {'Malignant' if pred==1 else 'Benign'} (Probability malignan
 
 **Conclusion:**
 - Early detection and prevention are key to improving breast cancer outcomes. Combining clinical expertise, patient awareness, and advanced diagnostic tools like machine learning models can significantly enhance patient care and survival rates.
-
----
-
-*All code, figures, and analyses are reproducible with the provided scripts.* 
