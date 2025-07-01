@@ -85,7 +85,7 @@ The main goal is to assist medical professionals in identifying high-risk cases,
 - Encoded target: Malignant = 1, Benign = 0
 
 ### 5.2. Class Distribution
-![Class Distribution](figure_class_distribution.png)
+![Class Distribution](figures/figure_class_distribution.png)
 
 **Analysis and Interpretation:**
 - The dataset is imbalanced: 357 benign and 212 malignant cases.
@@ -95,7 +95,7 @@ The main goal is to assist medical professionals in identifying high-risk cases,
 - Special attention must be paid to the minority class (malignant) to avoid false negatives, which are critical in a medical context.
 
 ### 5.3. Correlation Matrix (Top 10 Features)
-![Correlation Matrix](figure_correlation_top10.png)
+![Correlation Matrix](figures/figure_correlation_top10.png)
 
 **Analysis and Interpretation:**
 - The most correlated features with malignancy are: `radius_worst`, `perimeter_worst`, `area_worst`, `concave points_worst`, etc.
@@ -105,7 +105,7 @@ The main goal is to assist medical professionals in identifying high-risk cases,
 - Feature selection can be guided by these correlations, and dimensionality reduction could be considered to avoid multicollinearity.
 
 ## 6. Feature Importance
-![Feature Importances](figure_feature_importances.png)
+![Feature Importances](figures/figure_feature_importances.png)
 
 **Analysis and Interpretation:**
 - The Random Forest model identifies `concave points_worst`, `perimeter_worst`, and `radius_worst` as the most important features.
@@ -128,7 +128,7 @@ The Random Forest algorithm is an ensemble learning method that builds multiple 
 ### 7.2. Performance Visualizations
 
 #### Confusion Matrix
-![Confusion Matrix](figure_confusion_matrix.png)
+![Confusion Matrix](figures/figure_confusion_matrix.png)
 
 **Analysis and Interpretation:**
 - The confusion matrix shows a high number of true positives and true negatives, with very few false negatives (malignant predicted as benign) and no false positives.
@@ -138,7 +138,7 @@ The Random Forest algorithm is an ensemble learning method that builds multiple 
 - The model is highly reliable for distinguishing between benign and malignant tumors.
 
 #### ROC Curve
-![ROC Curve](figure_roc_curve.png)
+![ROC Curve](figures/figure_roc_curve.png)
 
 **Analysis and Interpretation:**
 - The ROC curve is close to the top-left corner, indicating excellent discrimination between classes.
@@ -148,7 +148,7 @@ The Random Forest algorithm is an ensemble learning method that builds multiple 
 - The model is highly effective at distinguishing between the two classes, minimizing both false positives and false negatives.
 
 #### Precision-Recall Curve
-![Precision-Recall Curve](figure_precision_recall.png)
+![Precision-Recall Curve](figures/figure_precision_recall.png)
 
 **Analysis and Interpretation:**
 - The precision-recall curve shows high precision and recall for the malignant class, even at different thresholds.
@@ -185,7 +185,7 @@ The Random Forest algorithm is an ensemble learning method that builds multiple 
 - The model is reliable for clinical decision support, but continuous monitoring is recommended to maintain performance on new data.
 
 ### 8.3. ROC Curve
-![ROC Curve](figure_roc_curve.png)
+![ROC Curve](figures/figure_roc_curve.png)
 
 **Analysis and Interpretation:**
 - The ROC curve is close to the top-left corner, indicating excellent discrimination between benign and malignant cases.
