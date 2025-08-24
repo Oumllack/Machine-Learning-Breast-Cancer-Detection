@@ -1,7 +1,7 @@
 # Breast Cancer Detection using Machine Learning
 
 ## 1. Introduction
-Breast cancer is the most common cancer among women worldwide and remains a major public health challenge. According to the World Health Organization, it accounts for more than 2 million new cases and over 600,000 deaths each year. Early and accurate diagnosis is crucial, as it significantly increases the chances of successful treatment and survival. However, traditional diagnostic methods, such as imaging and biopsy, can be time-consuming, costly, and subject to human error or variability in interpretation.
+reast cancer is the most common cancer among women worldwide and remains a major public health challenge. According to the World Health Organization, it accounts for more than 2 million new cases and over 600,000 deaths each year. Early and accurate diagnosis is crucial, as it significantly increases the chances of successful treatment and survival. However, traditional diagnostic methods, such as imaging and biopsy, can be time-consuming, costly, and subject to human error or variability in interpretation.
 
 In recent years, advances in artificial intelligence and machine learning have opened new avenues for improving cancer detection and diagnosis. By leveraging large datasets and sophisticated algorithms, machine learning models can identify complex patterns in medical data that may not be apparent to human experts. These models have the potential to assist clinicians in making faster, more accurate, and more consistent decisions, ultimately leading to better patient outcomes.
 
